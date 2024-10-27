@@ -1,0 +1,159 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    gap: 2%;
+  }
+
+  .Footer_SorH_btn {
+    z-index: 3;
+
+    width: 5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Footer_SorH_btn button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 1em;
+    text-wrap: wrap;
+    line-height: 13px;
+    background-color: rgb(25, 31, 41);
+    border: 0.3px solid rgba(255, 255, 255, 0.7);
+  }
+
+  .Footer_SorH_btn button:hover {
+    cursor: pointer;
+    background-color: rgb(35, 44, 58);
+  }
+
+  .Footer_SorH_btn button span {
+    color: rgb(88, 196, 220, 0.5);
+  }
+  ._footer {
+    height: 100%;
+    width: 95%;
+    position: relative;
+    right: 140%;
+    transition: all 0.5s linear;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  ._footer_show {
+    height: 100%;
+    width: 95%;
+    position: relative;
+    right: 0%;
+    transition: all 0.5s linear;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  ._footer div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+  }
+  ._footer button {
+    font-size: 1em;
+    text-transform: uppercase;
+    height: 90%;
+    background-color: rgb(25, 31, 41);
+    padding: 2px 4px;
+    border: 0.5px solid rgba(255, 255, 255, 0.352);
+    color: rgb(88, 196, 220, 0.7);
+  }
+  ._footer_show div {
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+  }
+  ._footer_show button {
+    font-size: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 90%;
+    background-color: rgb(25, 31, 41);
+    border: none;
+    padding: 2px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.409);
+    color: rgb(88, 196, 220, 0.7);
+  }
+  ._footer_show a {
+    color: rgb(88, 196, 220, 0.7);
+    font-size: 2em;
+    cursor: pointer;
+  }
+
+  ._footer_show button:hover {
+    background-color: rgb(35, 44, 58);
+  }
+  ._footer_show a:hover {
+    color: rgb(88, 196, 220, 0.9);
+  }
+
+  /* Media Querie s */
+
+  /* Extra small devices (phones, less than 576px) */
+  @media (max-width: 575.98px) {
+    .Footer_SorH_btn {
+      width: 12%;
+      height: 75%;
+      font-size: 0.5em;
+    }
+    ._footer_show {
+      height: 80%;
+    }
+
+    ._footer_show {
+      background-color: rgba(88, 175, 223, 0.05);
+    }
+    ._footer_show button {
+      font-size: 0.5em;
+    }
+  }
+
+  /* Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .Footer_SorH_btn {
+      width: 10%;
+    }
+    .Footer_SorH_btn button {
+      line-height: 9px;
+    }
+    ._footer {
+      width: 75%;
+    }
+  }
+
+  /* Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .Footer_SorH_btn {
+      width: 9%;
+
+    }
+    ._footer {
+      width: 90%;
+    }
+  }
+
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+  }
+
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {
+  }

@@ -1,0 +1,33 @@
+:root {
+  --loading-grey: rgb(88, 196, 220);
+}
+
+.Word_skeleton {
+  width: 10%;
+  height: 30px;
+}
+
+.skeleton_Index_histoy {
+  width: 6px;
+  background-size: 100% 100%;
+}
+
+.loading {
+  background: linear-gradient(
+      100deg,
+      rgba(88, 196, 220, 0.575) 40%,
+      rgba(255, 255, 255, 0.489) 50%,
+      rgb(52, 58, 70) 60%
+    )
+    var(--loading-grey);
+  background-size: 200% 100%;
+  background-position-x: 180%;
+  animation: loading 1s ease-in-out infinite;
+  color: rgba(245, 222, 179, 0.01);
+}
+
+@keyframes loading {
+  to {
+    background-position-x: -20%;
+  }
+}
